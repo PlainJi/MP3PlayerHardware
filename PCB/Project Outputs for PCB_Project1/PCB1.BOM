@@ -1,0 +1,32 @@
+Bill of Material for PCB1.PcbDoc
+On 2014/1/16 at 13:14:49
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 12.288MHz           XTAL_US          1    Y3                           Crystal Oscillator   
+ 12MHz               XTAL_US          1    Y1                           Crystal Oscillator   
+ 1N4148              DIODE_SOP        2    D1, D2                                            
+ 22pF                C0805            2    C4, C5                                            
+ 33.1776MHz          XTAL_US          1    Y2                           Crystal Oscillator   
+ AD7843              TSSOP16          1    U6                           TOUCH_AD7843         
+ AMS1117-3.3         AMS1117          1    U3                                                
+ Cap_NonPol          C0805           11    C1, C2, C3, C7, C8, C9, C12  Capacitor (Semiconductor SIM Model) 
+                                           C13, C14, C15, C16
+ Cap_Pol2            2012[0805]       1    C6                           Polarized Capacitor (Axial) 
+ Cap_Pol2            C0805            2    C10, C11                     Polarized Capacitor (Axial) 
+ CH340G              SOP16M           1    U1                           USB2UART             
+ Header 2            HDR1X2           1    +                            Header, 2-Pin        
+ Inductor            2012[0805]       2    L1, L2                       Inductor             
+ LCD_176*220_2.0''(LG) LCD_2.0''_176*220pix(LG4525)    1    TFT                          LCD_176*220_2.0''    
+ NPN                 SOT-23           1    Q1                           NPN Bipolar Transistor 
+ PHONE_M             PHONE_ST         1    PHONE                                             
+ Res Semi            2012[0805]       1    R6                           Semiconductor Resistor 
+ Res                 2012[0805]       9    R1, R2, R3, R4, R5, R7, R8   Semiconductor Resistor 
+                                           R9, R10
+ SD卡                microSD_ZISUO    1    TF_CARD                                           
+ STC12LE5A60S2_QFP48 VS1003           1    STC12LE5A                                         
+ USB                 USB/SM0.8-6H5    1    USB                                               
+ VS1003              VS1003           1    VS1003                                            
+ W25Q64              SOIC-8           1    U4                           W25X16;SST25VF016;MX25L1605 
+ XC6206              SOT-23           1    U2                                                
+ 开关                拨动开关         1    KEY1                                              
